@@ -25,8 +25,3 @@ nc: 10  # number of classes
 
 # class names
 names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
-
-# Classes
-nc: 10  # number of classes
-names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
-
