@@ -14,10 +14,17 @@
 #test: ../VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: ./Users/baixue/Desktop/VisDrone2019  # dataset root dir
-train: /Users/baixue/Desktop/VisDrone2019/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
-val: /Users/baixue/Desktop/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
-test: /Users/baixue/Desktop/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
+
+#path: ../datasets/VisDrone2019  # dataset root dir
+train: ../yolov7/VisDrone2019/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
+val: ../yolov7/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
+test: ../yolov7/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
+
+# number of classes
+nc: 10  # number of classes
+
+# class names
+names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']
 
 # Classes
 nc: 10  # number of classes
