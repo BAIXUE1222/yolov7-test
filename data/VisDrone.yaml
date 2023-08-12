@@ -21,7 +21,7 @@
 
 
 train: /root/data/user/VisDrone2019/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
-val: /root/data/user/VisDrone-DET/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
+val: /root/data/user/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
 test: /root/data/user/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
 
 
