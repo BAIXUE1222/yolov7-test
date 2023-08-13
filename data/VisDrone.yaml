@@ -20,10 +20,14 @@
 #test: /Users/baixue/Desktop/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
 
 
-train: /root/data/user/VisDrone2019/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
-val: /root/data/user/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
-test: /root/data/user/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
+#train: /root/data/user/VisDrone2019/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
+#val: /root/data/user/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
+#test: /root/data/user/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
 
+###Kaggle:
+train: /kaggle/input/visdrone-det/VisDrone2019/VisDrone2019-DET-train/images  # train images (relative to 'path')  6471 images
+val: /kaggle/input/visdrone-det/VisDrone2019/VisDrone2019-DET-val/images  # val images (relative to 'path')  548 images
+test: /kaggle/input/visdrone-det/VisDrone2019/VisDrone2019-DET-test-dev/images  # test images (optional)  1610 images
 
 # Classes
 nc: 10  # number of classes
